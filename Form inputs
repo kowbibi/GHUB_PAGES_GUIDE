@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample Form</title>
+</head>
+<body>
+
+<!-- Form Start -->
+<form id="sampleForm" action="#" method="post" onsubmit="return greetUser()">
+    <label for="name">Enter your name:</label><br>
+    <input type="text" id="name" name="name" required><br><br>
+    <input type="submit" value="Submit">
+</form>
+<!-- Form End -->
+
+<!-- Greeting Message -->
+<div id="Hello" style="display: none;">
+    <h2>Thank you!</h2>
+    <p>Hello <span id="username"></span>, welcome to our website!</p>
+</div>
+
+<script>
+    function greetUser() {
+        // Get the input value from the form
+        var username = document.getElementById('name').value;
+
+        // Display greeting message with user's name
+        document.getElementById('username').textContent = username;
+        document.getElementById('greeting').style.display = 'block';
+
+        // Prevent the form from submitting and refreshing the page
+        return false;
+    }
+</script>
+
+</body>
+</html>
