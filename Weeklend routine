@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weekend Routine</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Table Start -->
+<table>
+    <!-- Table Header Row -->
+    <thead>
+        <tr>
+            <th>Time</th> <!-- First column, indicates time -->
+            <th>Saturday</th> <!-- Second column, activities for Saturday -->
+            <th>Sunday</th> <!-- Third column, activities for Sunday -->
+        </tr>
+    </thead>
+    <!-- Table Body Rows -->
+    <tbody>
+        <tr>
+            <td>Morning</td> <!-- First column, morning time -->
+            <td>Exercise</td> <!-- Second column, morning activity on Saturday -->
+            <td>Breakfast with family</td> <!-- Third column, morning activity on Sunday -->
+        </tr>
+        <tr>
+            <td>Noon</td> <!-- First column, noon time -->
+            <td>House chores</td> <!-- Second column, noon activity on Saturday -->
+            <td>Relaxing time</td> <!-- Third column, noon activity on Sunday -->
+        </tr>
+        <tr>
+            <td>Afternoon</td> <!-- First column, afternoon time -->
+            <td>Outdoor activity</td> <!-- Second column, afternoon activity on Saturday -->
+            <td>Visit friends</td> <!-- Third column, afternoon activity on Sunday -->
+        </tr>
+        <tr>
+            <td>Evening</td> <!-- First column, evening time -->
+            <td>Movie night</td> <!-- Second column, evening activity on Saturday -->
+            <td>Dinner out</td> <!-- Third column, evening activity on Sunday -->
+        </tr>
+    </tbody>
+</table>
+<!-- Table End -->
+
+</body>
+</html>
